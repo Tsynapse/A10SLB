@@ -5,10 +5,8 @@
    Gets a list of ADC VIPS from the A10. Requires an auth header from the Get-AuthHeader command. 
 .EXAMPLE
    Get-VIPS -a10 x.x.x.x -authHeader $auth
-.EXAMPLE
-   Another example of how to use this cmdlet
 #>
-function Verb-Noun
+function Get-VIPS
 {
     [CmdletBinding()]
     Param
