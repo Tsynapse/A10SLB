@@ -11,13 +11,13 @@ function Get-VIPS
     [CmdletBinding()]
     Param
     (
-        # Param1 help description
+        #IP Address of A10
         [Parameter(Mandatory=$true,
                    ValueFromPipelineByPropertyName=$true,
                    Position=0)]
         $a10,
 
-        # Param2 help description
+        # Auth Headers provided by Get-AuthHeader
         [Parameter(Mandatory=$true,
                    ValueFromPipelineByPropertyName=$true,
                    Position=1)]
