@@ -11,7 +11,7 @@ function Get-AuthHeader
     [CmdletBinding()]
     Param
     (
-        # Param1 help description
+        # IP Address or URL of A10
         [Parameter(Mandatory=$true,
                    ValueFromPipelineByPropertyName=$true,
                    Position=0)]
